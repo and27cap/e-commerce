@@ -1,0 +1,86 @@
+/**************************************** GENERALE **/
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+/**************************************** HOME **/
+
+/* titolo */
+
+.titolo{
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.nav-bg-trasparente{background-color: transparent;}
+
+/* bottoni */
+
+.btn-color{
+  color: #000;
+  border: 2px solid #90BF22;
+  background-color: #fff!important;
+}
+
+.btn-color:hover{
+  color: #fff;
+  border: 2px solid #90BF22;
+  background-color: #90BF22!important;
+}
+
+
+/* form ricerca*/
+
+.form-control{
+  border: 2px solid #90BF22;
+}
+
+/* jumbotron testata*/
+
+.jumb-testata {margin-top: -191.6px;}
+.jumb-testata div{height: 320px;}
+
+/* card */
+
+.card{border: transparent;}
+.card .rounded-circle{height: 300px; width: 300px;}
+.pt-card{margin-top: -200px;}
+.card-bg-trasparente{background-color: transparent;}
+.btn-color-card{background: #90BF22; border: 2px solid #90BF22;}
+.btn-color-card:hover{background: #fff; color: #90BF22; border: 2px solid #90BF22;}
+
+/* jumbotron saldi*/
+
+.jumb-saldi h1{text-transform: uppercase; color: #fff; font-weight: bold;}
+
+/* slider saldi*/
+.carousel-item,
+.carousel-inner,
+.carousel,
+.slider-dim{height: 400px; width: auto;}
+
+.mt-slider{margin-top: -33px;}
+.carousel-caption{position: fixed;}
+
+
+/* jumbotron footer*/
+
+.jumb-footer{background: #90BF22; margin-bottom: -20px;}
+.jumbotron p{font-weight: 900;}
+
+
+/**************************************** CARRELLO **/
+
+
+/* tabella acquisti*/
+
+.table-bordi{border: 2px solid #90BF22; border-radius: 25px; margin-bottom: 20px;padding-top: 10px;}
+
+.buttom-text-carrello button{text-transform: uppercase;font-weight: 400; font-size: 36px;}

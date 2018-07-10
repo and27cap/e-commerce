@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- Menù -->
+
+  <nav class="nav-bg-trasparente">
+    <div class="container pt-2">
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+          <a href="home.html"><h1 class="titolo text-center">I TUOI VESTITI A PORTATA DI CLICK</h1></a>
+        </div>
+        <div class="col-2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-5">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2 form-control-lg" type="search" placeholder="Cosa stai cercando?" aria-label="Cosa stai cercando?">
+            <button class="btn btn-lg btn-color" type="submit"><i class="fas fa-search mr-3"></i>Cerca</button>
+          </form>
+        </div>
+        <div class="col-3">
+          <a href="carrello.html"><button type="button" class="btn btn-lg btn-color btn-block"><i class="fas fa-cart-arrow-down mr-3"></i>Carrello</button></a>
+        </div>
+        <div class="col-2">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- immagine jumbotron -->
+
+  <div class="jumbotron jumb-testata" style="background:linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.7)), url(img/sfondo-testata.jpg); background-size:cover; background-position: center center">
+    <div class="container">
+    </div>
+  </div>
+
+  <!-- card 1 -->
+
+  <div class="container pt-card">
+    <div class="card-deck">
+
+      <div class="card card-bg-trasparente">
+        <img class="mx-auto d-block rounded-circle" src="img/home1.jpg" alt="t-shirt">
+        <div class="card-body">
+          <button type="button" class="btn btn-lg btn-color-card btn-block">T-shirt</button>
+        </div>
+      </div>
+
+      <div class="card card-bg-trasparente">
+        <img class="mx-auto d-block rounded-circle" src="img/home2.jpg" alt="felpe">
+        <div class="card-body">
+          <button type="button" class="btn btn-lg btn-color-card btn-block">Felpe</button>
+        </div>
+      </div>
+
+      <div class="card card-bg-trasparente">
+        <img class="mx-auto d-block rounded-circle" src="img/home3.jpg" alt="camicie">
+        <div class="card-body">
+          <button type="button" class="btn btn-lg btn-color-card btn-block">Camicie</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+    <!-- card 2 -->
+
+    <div class="container pt-5">
+      <div class="card-deck">
+
+        <div class="card card-bg-trasparente">
+          <img class="mx-auto d-block rounded-circle" src="img/home4.jpg" alt="gonne">
+          <div class="card-body">
+            <button type="button" class="btn btn-lg btn-color-card btn-block">Gonne</button>
+          </div>
+        </div>
+
+        <div class="card card-bg-trasparente">
+          <img class="mx-auto d-block rounded-circle" src="img/home5.jpg" alt="vestito">
+          <div class="card-body">
+            <button type="button" class="btn btn-lg btn-color-card btn-block">Vestito</button>
+          </div>
+        </div>
+
+        <div class="card card-bg-trasparente">
+          <img class="mx-auto d-block rounded-circle" src="img/home6.jpg" alt="magliette">
+          <div class="card-body">
+            <button type="button" class="btn btn-lg btn-color-card btn-block">Magliette</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- immagine saldi jumbotron -->
+
+    <div class="jumbotron jumb-saldi mt-5 rounded-0" style="background:linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.7)), url(img/sfondo-testata.jpg); background-size:cover; background-position: center center">
+      <div class="container">
+        <h1 class="display-4 text-center">I nostri saldi</h1>
+      </div>
+    </div>
+
+    <!-- slider saldi -->
+
+    <div id="carouselExampleIndicators" class="carousel slide mt-slider" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-indicators">
+        <button type="button" class="btn btn-lg btn-color-card mb-5"><i class="fas fa-arrow-right mr-3"></i>Scopri</button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active slider-dim w-100" style="background: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.7)), url(img/saldi1.jpg); background-size:cover; background-position: center center">
+
+        </div>
+
+        <div class="carousel-item slider-dim w-100" style="background: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.7)), url(img/saldi2.jpg); background-size:cover; background-position: center center">
+
+        </div>
+
+        <div class="carousel-item slider-dim w-100" style="background: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.7)), url(img/saldi3.jpg); background-size:cover; background-position: center center">
+
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+  <!-- footer -->
+
+  <div class="jumbotron jumb-footer rounded-0">
+    <div class="container">
+
+      <div class="row justify-content-between">
+
+        <div class="col-4">
+          <p class="text-left"><i class="fas fa-envelope mr-3"></i>Contattaci</p>
+        </div>
+        <div class="col-4">
+          <p class="text-right">Progetto Base dei Dati mod.2</p>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-between">
+
+        <div class="col-4">
+          <p class="text-left"><i class="fas fa-map-marker-alt mr-3"></i>Dove siamo</p>
+        </div>
+        <div class="col-4">
+          <p class="text-right">Anno 2017-18</p>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-between">
+
+        <div class="col-4">
+          <p class="text-left"><i class="fas fa-cube mr-3"></i>Spese di spedizione</p>
+        </div>
+        <div class="col-4">
+          <p class="text-right">Bogdan, Capone, Daneluzzo e Kove</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</body>
+</html>
